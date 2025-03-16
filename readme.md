@@ -131,3 +131,36 @@ url: http://localhost:3000/api/alumnos/consulta2
 Metodo: GET 
 url: GET http://localhost:3000/api/alumnos/consulta3
 
+## Capturas de pantalla de  .explain("executionStats")
+### Insertar los 50000 datos
+![Inserccion de los 50000 alumnos](imagenes/insertar500.png)
+
+### Consulta 1 (Filtro y Ordenamiento)
+![Sin Indices](imagenes/1sinindices.png)
+
+![Con Indices](imagenes/1conindices.png)
+
+### Consulta 2 (Agregación)
+![Sin Indices](imagenes/2sinindices.png)
+
+![Con Indices](imagenes/2conindices.png)
+
+### Consulta 3 (Rango de Fechas)
+![Sin Indices](imagenes/3sinindices.png)
+
+![Con Indices](imagenes/3conindices.png)
+
+### Capturas del API
+Todos los Alumnos:
+![Todos los Alumnos](imagenes/todosalumnos.png)
+
+Consulta 1:
+![Consulta 1](imagenes/APICONSULTA1.png)
+
+Consulta 2:
+![Consulta 2](imagenes/APICONSULTA2.png)
+
+Consulta 3:
+![Consulta 2](imagenes/APICONSULTA3.png)
+
+
